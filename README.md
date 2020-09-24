@@ -1,2 +1,447 @@
 # data-about-cv
 用于存放关于计算机视觉的资料
+
+导读：本文共汇总了从2020年4月至今的计算机视觉领域综述性论文，共54篇，涵盖图像分割、 图像识别、人脸识别/检测、医学影像、目标检测、3D方向（自动驾驶/深度估计）、GAN、文本检测与识别、姿态估计等14个研究方向。54篇论文打包下载请前往极市社区。
+图像分割
+Unsupervised Domain Adaptation in Semantic Segmentation: a Review
+
+标题：语义分割中的无监督自适应研究进展
+
+作者：Marco Toldo, Pietro Zanuttigh
+
+链接：https://arxiv.org/abs/2005.10876
+
+A survey of loss functions for semantic segmentation
+
+标题：语义分割损失函数综述
+
+作者：Shruti Jadon
+
+链接：https://arxiv.org/abs/2006.14822
+
+A Survey on Instance Segmentation: State of the art
+
+标题：实例分割技术综述
+
+作者：Abdul Mueed Hafiz, Ghulam Mohiuddin Bhat
+
+链接：https://arxiv.org/abs/2007.00047
+
+人脸识别/检测
+Deep Learning Based Single Sample Per Person Face Recognition: A Survey
+
+标题：基于深度学习的单样本人脸识别研究综述
+
+作者：Delong Chen, Zewen Li
+
+链接：https://arxiv.org/abs/2006.11395
+A survey of face recognition techniques under occlusion
+
+标题：遮挡下的人脸识别技术综述
+
+作者：Dan Zeng, Luuk Spreeuwers
+
+链接：https://arxiv.org/abs/2006.11366
+本文介绍了现有的面部识别方法如何解决遮挡问题，并将其分为三类：1）遮挡鲁棒特征提取方法；2）遮挡感知的面部识别方法；3）基于遮挡恢复的面部识别方法。共引用193篇文献。
+
+Biometric Quality: Review and Application to Face Recognition with FaceQnet
+
+标题：生物特征质量：FaceQnet在人脸识别中的应用
+
+作者：Javier Hernandez-Ortega, Laurent Beslay
+
+链接：https://arxiv.org/abs/2006.03298
+
+Threat of Adversarial Attacks on Face Recognition: A Comprehensive Survey
+
+标题：对抗攻击对人脸识别的威胁：综述
+
+作者：Fatemeh Vakhshiteh, Ahmad Nickabadi
+
+链接：https://arxiv.org/abs/2007.11709
+本文对针对人脸识别系统的对抗性攻击进行了全面研究，详细阐述了针对这些系统的新对策，并根据不同的标准提出并比较了现有攻防策略的分类法。
+
+Cross-ethnicity Face Anti-spoofing Recognition Challenge: A Review
+
+标题：跨种族人脸反欺骗识别挑战：综述
+
+作者：Ajian Liu, Stan Z. Li
+
+链接：https://arxiv.org/abs/2004.10998
+The Creation and Detection of Deepfakes: A Survey
+
+标题：深度伪装的产生与检测：综述
+
+作者：Yisroel Mirsky, Wenke Lee
+
+链接：https://arxiv.org/abs/2004.11138
+图像识别
+Visual Relationship Detection using Scene Graphs: A Survey
+
+标题：基于场景图的视觉关系检测研究综述
+
+作者：Aniket Agarwal, Vipul
+
+链接：https://arxiv.org/abs/2005.08045
+本文对场景图生成的各种技术，它们表示视觉关系的效率以及如何用于解决各种下游任务的方法进行了详细的研究，并分析了该领域未来可能发展的各种未来方向。共引用95篇文献。
+
+Deep learning for scene recognition from visual data: a survey
+
+标题：从视觉数据中进行场景识别的深度学习：综述
+
+作者：Alina Matei, Estefania Talavera
+
+链接：https://arxiv.org/abs/2007.01806
+概述了可用于图像和视频场景识别的数据集、研究论文、集成技术。
+Automatic Target Recognition on Synthetic Aperture Radar Imagery: A Survey
+
+标题：合成孔径雷达图像目标自动识别综述
+
+作者：Kechagias-Stamatis
+
+链接：https://arxiv.org/abs/2007.02106
+军事应用的自动目标识别（ATR）是增强情报员和自主运行的军事平台的核心过程。本文对当前的SAR ATR体系结构进行调查和评估，采用SAR域中最受欢迎的数据集-移动和固定目标获取与识别（MSTAR）数据集。提出了SAR ATR体系结构的分类法，并比较了标准方法和扩展操作条件下每种方法的优缺点。共引用151篇文献。
+Deep Learning for Change Detection in Remote Sensing Images: Comprehensive Review and Meta-Analysis
+
+标题：遥感图像变化检测的深度学习：综合评述和Meta分析
+
+作者：Lazhar Khelifi, Max Mignotte
+
+链接：https://arxiv.org/abs/2006.05612
+3D相关
+A Quick Review on Recent Trends in 3D Point Cloud Data Compression Techniques and the Challenges of Direct Processing in 3D Compressed Domain
+
+标题：回顾3D点云数据压缩技术的最新趋势和3D压缩域中的挑战
+
+作者：Mohammed Javed, Pavan Chakraborty
+
+链接：https://arxiv.org/abs/2007.05038
+由于以3D点云形式（使用雷达）生成的数据量非常大，因此研究人员正设法发明新的数据压缩算法来处理。压缩域处理，即可以直接对压缩数据进行操作分析而不涉及解压缩和重新压缩的算法是新颖的。本文回顾了LiDAR生成3D点云数据压缩域的最新进展，并重点介绍3D点云数据压缩域处理的未来挑战。
+Autonomous Driving with Deep Learning: A Survey of State-of-Art Technologies
+
+标题：基于深度学习的自主驾驶：技术现状综述
+
+作者：Yu Huang, Yue Chen
+
+链接：https://arxiv.org/abs/2006.06091
+本文研究了自动驾驶系统的主要领域，如感知，映射和定位，预测，计划和控制，仿真，V2X和安全性等。并重点分析2D和感知中的3D目标检测，摄像头的深度估计，数据，特征和多传感器融合等。共引用351篇文献。
+
+Review on 3D Lidar Localization for Autonomous Driving Cars
+
+标题：自动驾驶汽车三维激光雷达定位技术综述
+
+作者：Mahdi Elhousni, Xinming Huang
+
+链接：https://arxiv.org/abs/2006.00648
+
+Deep Learning for LiDAR Point Clouds in Autonomous Driving: A Review
+
+标题：自主驾驶中LiDAR点云的深度学习：综述
+
+作者：Ying Li, Michael A. Chapman
+
+链接：https://arxiv.org/abs/2005.09830
+本文总结了最近五年的140多项关键贡献，包括里程碑式3D深度架构，在3D语义分割，目标检测和分类中出色的深度学习应用程序；数据集，评估指标和最新技术水平。共147篇文献。
+
+
+Deep Learning for Image and Point Cloud Fusion in Autonomous Driving: A Review
+
+标题：自动驾驶中图像与点云融合的深度学习：综述
+
+作者：Yaodong Cui, Dongpu Cao
+
+链接：https://arxiv.org/abs/2004.05224
+本文致力于回顾最近利用图像和点云的基于深度学习的数据融合方法。简要概述了关于图像和点云数据处理的深度学习，对相机-LiDAR融合方法、目标检测，语义分割和跟踪进行了深入分析比较。
+
+A Survey on Deep Learning Techniques for Stereo-based Depth Estimation
+
+标题：基于立体的深度估计深度学习技术综述
+
+作者：Hamid Laga, Mohammed Bennamoun
+
+链接：https://arxiv.org/abs/2006.02535
+本文对基于立体的深度估计这一新的且不断发展的研究领域进行了全面调查，总结了最常用的pipeline，并讨论了它们的好处和局限性。共引用157篇文献。
+
+医学影像
+A scoping review of transfer learning research on medical image analysis using ImageNet
+
+标题：利用ImageNet进行医学图像分析的迁移学习研究述评
+
+作者：Mohammad Amin Morid, Guilherme Del Fiol
+
+链接：https://arxiv.org/abs/2004.13175
+Deep Learning Based Brain Tumor Segmentation: A Survey
+
+标题：基于深度学习的脑肿瘤分割研究综述
+
+作者：Zhihua Liu, Huiyu Zhou
+
+链接：https://arxiv.org/abs/2007.09479
+本文对近期基于深度学习的脑肿瘤分割技术进行全面总结。涵盖了不同方法的优缺点，预处理，数据集和评估指标等。共129篇文献。
+
+A Survey on Deep Learning for Neuroimaging-based Brain Disorder Analysis
+
+标题：基于神经成像的脑疾病分析深度学习研究综述
+
+作者：Li Zhang, Daoqiang Zhang
+
+链接：https://arxiv.org/abs/2005.04573
+A review: Deep learning for medical image segmentation using multi-modality fusion
+
+标题：多模态融合用于医学图像分割的深度学习综述
+
+作者：Tongxue Zhou, Stéphane Canu
+
+链接：https://arxiv.org/abs/2004.10664
+
+Medical Instrument Detection in Ultrasound-Guided Interventions: A Review
+
+标题：超声引导治疗的医疗器械检测
+
+作者：Hongxu Yang, Peter H. N. de With
+
+链接：https://arxiv.org/abs/2007.04807
+A Survey on Domain Knowledge Powered Deep Learning for Medical Image Analysis
+
+标题：域知识驱动的医学图像深度学习研究综述
+
+作者：Xiaozheng Xie, Shaojie Tang
+
+链接：https://arxiv.org/abs/2004.12150
+本文总结了将深度学习模型引入医学领域知识以完成各种任务（如疾病诊断，病变，器官和异常检测，病变和器官分割）的最新进展。共引用268篇文献。
+
+A Review on End-To-End Methods for Brain Tumor Segmentation and Overall Survival Prediction
+
+标题：脑肿瘤的端到端分割和总体生存预测方法综述
+
+作者：Snehal Rajput, Mehul S Raval
+
+链接：https://arxiv.org/abs/2006.01632
+目标检测
+Foreground-Background Imbalance Problem in Deep Object Detectors: A Review
+
+标题：深度目标检测器中前景-背景不平衡问题综述
+
+作者：Joya Chen, Tong Xu
+
+链接：https://arxiv.org/abs/2006.09238
+本文研究了不平衡问题解决方案的最新进展。分析了包括一阶段和两阶段在内的各种深度检测器中不平衡问题的特征。 将现有解决方案分为两类：抽样和非抽样方案，并在COCO上进行了实验对比。
+
+GAN/对抗式/生成式
+A Survey on Generative Adversarial Networks: Variants, Applications, and Training
+
+标题：生成性对抗网络综述：变体、应用和培训
+
+作者：Abdul Jabbar, Bourahla Omar
+
+链接：https://arxiv.org/abs/2006.05132
+
+Generative Adversarial Networks (GANs): An Overview of Theoretical Model, Evaluation Metrics, and Recent Developments
+
+标题：生成性对抗网络(GANS)：理论模型，评估度量和最新发展综述
+
+作者：Pegah Salehi, Maryam Taghizadeh
+
+链接：https://arxiv.org/abs/2005.13178
+
+Regularization Methods for Generative Adversarial Networks: An Overview of Recent Studies
+
+标题：生成性对抗网络的正则化方法：近期研究综述
+
+作者：Minhyeok Lee, Junhee Seok
+
+链接：https://arxiv.org/abs/2005.09165
+Universal Adversarial Perturbations: A Survey
+
+标题：普遍对抗扰动：综述
+
+作者： Ashutosh Chaubey, Pramod Mehta
+
+备注：20 pages, 17 figures
+
+链接：https://arxiv.org/abs/2005.08087
+文本检测与识别
+Text Detection and Recognition in the Wild: A Review
+
+标题：野外文本检测与识别研究综述
+
+作者：Zobeir Raisi, John Zelek
+
+链接：https://arxiv.org/abs/2006.04305
+本文不仅对有关场景文本检测和识别的最新进展进行了回顾，还介绍了用统一工具进行广泛实验的结果评估框架，用于评估案例选定方法的预训练模型。其次，确定用于检测或识别野外图像中文本的几个现有挑战：平面内旋转，多方向和多分辨率文本，透视变形，照明反射，部分遮挡，复杂字体和特殊字符。共引用193篇文献。
+
+Text Recognition in the Wild: A Survey
+
+标题：野外文本识别研究综述
+
+作者：Xiaoxue Chen, Tianwei Wang
+
+链接：https://arxiv.org/abs/2005.03492
+Survey on Deep Learning-based Kuzushiji Recognition
+
+标题：基于深度学习的Kuzushiji识别研究综述
+
+作者：Kazuya Ueki, Tomoka Kojima
+
+链接：https://arxiv.org/abs/2007.09637
+姿态估计
+Monocular Human Pose Estimation: A Survey of Deep Learning-based Methods
+
+标题：单目人体姿态估计：基于深度学习的方法综述
+
+作者：Yucheng Chen, Mingyi He
+
+链接：https://arxiv.org/abs/2006.01423
+本文回顾了自2014年以来发布的基于深度学习的2D和3D人体姿势估计方法。概述了挑战，主要框架，基准数据集，评估指标，性能比较，并讨论了未来研究方向。
+
+图像去噪
+Learning from Noisy Labels with Deep Neural Networks: A Survey
+
+标题：基于深度神经网络的噪声标签学习研究综述
+
+作者：Hwanjun Song, Jae-Gil Lee
+
+链接：https://arxiv.org/abs/2007.08199
+本文对46种最先进的基于深度神经网络的噪声标签学习训练方法进行了全面回顾，将这些方法分为7组，系统比较了6种特性，并总结了常用的评估方法。共引用113篇文献。
+
+视频相关
+Movement Assessment from Skeleton Videos: A Review
+
+标题：基于骨骼视频的运动评估研究进展
+
+作者：Tal Hakim
+
+链接：https://arxiv.org/abs/2007.10737
+本文回顾了骨骼视频自动运动评估的最新解决方案，并根据其目标，功能，运动域和算法方法进行了比较。
+
+A Review on Deep Learning Techniques for Video Prediction
+
+标题：视频预测深度学习技术综述
+
+作者：Sergiu Oprea, Antonis Argyros
+
+链接：https://arxiv.org/abs/2004.05214
+本文对视频序列中预测的深度学习方法进行了综述：定义视频预测的基础知识，背景概念和常用的数据集，同时分析对比了现有视频预测模型，总结了它们的贡献、并指出未来研究方向。共引用241篇文献。
+
+异常检测
+Deep Learning for Anomaly Detection: A Review
+
+标题：异常检测的深度学习：综述
+
+作者：Guansong Pang, Anton van den Hengel
+
+链接：https://arxiv.org/abs/2007.02500
+本文综述了利用全面的检测方法分类法进行的深度异常检测的研究，涵盖了该方法的3个类别和11个细粒度类别的研究进展。综述目标功能，基本假设，优点和缺点，并进一步讨论了未来机会以及挑战。
+
+A Survey of Single-Scene Video Anomaly Detection
+
+标题：单场景视频异常检测综述
+
+作者：Bharathkumar Ramachandra, Ranga Raju Vatsavai
+
+链接：https://arxiv.org/abs/2004.05993
+神经网络训练
+Mixing Real and Synthetic Data to Enhance Neural Network Training – A Review of Current Approaches
+
+标题：混合真实数据和合成数据加强神经网络训练-当前方法综述
+
+作者：Viktor Seib, Stefan Wirtz
+
+链接：https://arxiv.org/abs/2007.08781
+深度神经网络在许多计算机视觉任务中已变得极为重要。 本文回顾比较了多种不同技术，以提高训练效果而无需获取更多真实标注数据。
+Boosting Deep Neural Networks with Geometrical Prior Knowledge: A Survey
+
+标题：用几何先验知识增强深度神经网络：综述
+
+作者：Matthias Rath, Alexandru Paul Condurache
+
+链接：https://arxiv.org/abs/2006.16867
+受卷积神经网络（CNN）在计算机视觉任务中成功的启发，一个有前景的领域是将关于要解决问题的对称几何变换的知识并入其中。这保证了更高的数据效率和更容易解释的过滤器响应。本文概述了将几何先验知识纳入DNN的不同方法。并尝试将这些方法连接到3D目标检测领域。
+
+视觉常识/其他
+Backdoor Attacks and Countermeasures on Deep Learning: A Comprehensive Review
+
+标题：深度学习的后门攻击及其对策综述
+
+作者：Yansong Gao, Hyoungshick Kim
+
+链接：https://arxiv.org/abs/2007.10760
+Survey on Deep Multi-modal Data Analytics: Collaboration, Rivalry and Fusion
+
+标题：深度多模态数据分析综述：协作、竞争和融合
+
+作者：Yang Wang
+
+链接：https://arxiv.org/abs/2006.08159
+Towards Robust Pattern Recognition: A Review
+
+标题：面向稳健模式识别的研究进展
+
+作者：Xu-Yao Zhang, Ching Y. Suen
+
+链接：https://arxiv.org/abs/2006.06976
+A survey on deep hashing for image retrieval
+
+标题：用于图像检索的深度散列技术综述
+
+作者：Xiaopeng Zhang
+
+链接：https://arxiv.org/abs/2006.05627
+Finger Texture Biometric Characteristic: a Survey
+
+标题：手指纹理生物特征研究综述
+
+作者：Raid R. O. Al-Nima, Jonathon Chambers
+
+链接：https://arxiv.org/abs/2006.04193
+A Concise Review of Recent Few-shot Meta-learning Methods
+
+标题：元学习方法的简要评述
+
+作者：Xiaoxu Li, Zhanyu Ma
+
+链接：https://arxiv.org/abs/2005.10953
+A Survey on Unknown Presentation Attack Detection for Fingerprint
+
+标题：指纹未知呈现攻击检测研究综述
+
+作者：Jag Mohan Singh, Raghavendra Ramachandra
+
+链接：https://arxiv.org/abs/2005.08337
+A Survey on Visual Sentiment Analysis
+
+标题：视觉情感分析综述
+
+作者：Alessandro Ortis, Sebastiano Battiato
+
+链接：https://arxiv.org/abs/2004.11639
+On the Synergies between Machine Learning and Stereo: a Survey
+
+标题：机器学习与立体视觉的协同作用研究综述
+
+作者：Matteo Poggi, Stefano Mattoccia
+
+链接：https://arxiv.org/abs/2004.08566
+A Survey on Deep Learning for Localization and Mapping: Towards the Age of Spatial Machine Intelligence
+
+标题：定位与制图深度学习综述：迈向空间机器智能时代
+
+作者：Changhao Chen, Andrew Markham
+
+链接：https://arxiv.org/abs/2006.12567
+Deep Learning for Vision-based Prediction: A Survey
+
+标题：基于视觉预测的深度学习研究综述
+
+作者：Amir Rasouli
+
+链接：https://arxiv.org/abs/2007.00095
+A Brief Review of Deep Multi-task Learning and Auxiliary Task Learning
+
+标题：浅谈深度多任务学习和辅助任务学习
+
+作者：Partoo Vafaeikia, Farzad Khalvati
+
+链接：https://arxiv.org/abs/2007.01126
+打包下载：https://pan.baidu.com/s/1BJhLrKiHwrGgrqfnZ0u8Eg
+密码：[hide]20wh[/hide]
